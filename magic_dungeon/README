@@ -1,0 +1,18 @@
+magic_dungeon/
+├── main.py                  # Точка входа
+├── config/
+│   └── settings.py          # Общие настройки (цвета, размеры, FPS)
+├── core/
+│   ├── game.py              # Основной игровой цикл
+│   ├── world.py             # Мир (карта, уровни)
+│   └── input_handler.py     # Обработка ввода
+├── entities/
+│   ├── base_entity.py       # Базовый класс для всех объектов
+│   └── player.py            # Класс игрока
+├── graphics/
+│   ├── renderer.py          # Отрисовка экрана
+│   └── assets/              # Спрайты, изображения (пока можно пусто)
+│       └── ...
+├── utils/
+│   └── helpers.py           # Вспомогательные функции
+└── README.md
